@@ -301,6 +301,14 @@ nav .fa {
 
 }
 
+@media (max-width: 375px) {
+
+  .contact-me {
+    padding: 10px;
+  }
+
+}
+
 footer {
   width: 100%;
   color: #36454F;
