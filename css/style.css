@@ -120,6 +120,21 @@ nav img{
   }
 }
 
+@media (max-width:400px ){
+  .balot {
+    padding: 14px;
+  }
+
+  .pamagat {
+    font-size: 40px;
+  }
+
+  .sulat {
+    font-size: 20px;
+  }
+}
+
+
 footer {
   width: 100%;
   color: #36454F;
