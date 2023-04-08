@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width" />
+    <title>Covid-19</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="css/style8.css">
+
+</head>
+<body>
+  <section class="head">
+    <nav>
+    <img src="images/logo2.png">
+      <!--nav-links--> <!--id-navLinks-->
+      <div class="links" id="navLinks">
+        <i class="fa fa-close" onclick="hideMenu()"></i>
+        <ul>
+                   <li><a href="Home.html">HOME</a></li>
+                   <li><a href="News.html">NEWS</a></li>
+                   <li><a href="Events.html">EVENTS</a></li>
+                   <li><a href="Forum.html">FORUM</a></li>
+                   <li><a href="Contact.html">CONTACT</a></li>
+               </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+  <!--text-box-->
+    <div class="home-text">
+       <h1>COVID-19</h1>
+
+  </div>
+</section>
+
+<section class="news-content">
+    <div class="news-row">
+    <div class="news-mid">
+        <img src="images/mask.jpg">
+        <h2>Avoiding Covid-19</h2>
+
+        <p>As concerns grow about the rising number of Covid-19 cases in primary schools across the UK, many parents and teachers are looking for ways to protect children and staff from the virus. Here are some tips on how to avoid Covid-19:</p>
+        <br>
+        <p>1. Wear a mask - Although not currently mandatory in primary schools, wearing a mask can help to reduce the spread of the virus. Encourage your child to wear a mask if they are able to do so, and consider wearing one yourself if you are dropping off or collecting your child.</p>
+        <br>
+        <p>2. Wash your hands - Regular hand washing is one of the most effective ways to prevent the spread of Covid-19. Encourage your child to wash their hands frequently throughout the day, and remind them to use soap and water for at least 20 seconds each time.</p>
+        <br>
+        <p>3. Keep your distance - Social distancing measures can be difficult to maintain in a classroom setting, but it's important to try to keep a safe distance from others whenever possible. Encourage your child to avoid crowded areas, and consider asking teachers to rearrange desks or tables to allow for more space.</p>
+        <br>
+        <p>4. Get tested - Regular Covid-19 testing can help to identify cases early and prevent further spread of the virus. Encourage your child to take part in any testing programs offered by their school, and consider getting tested yourself if you have any symptoms or have been in close contact with someone who has tested positive.</p>
+        <br>
+        <p>5. Stay home if you're sick - If your child is feeling unwell or displaying any Covid-19 symptoms, such as a high temperature, a new persistent cough, or a loss of taste or smell, keep them at home and arrange for them to be tested. Similarly, if you or anyone in your household has tested positive for Covid-19, follow the relevant self-isolation guidelines.</p>
+        <br>
+        <p>By following these simple steps, parents and teachers can help to reduce the spread of Covid-19 and protect children and staff from the virus. However, it's important to remember that the situation is constantly evolving, and additional measures may need to be taken in the future to ensure the safety of everyone involved.</p>
+        <br>
+
+
+    </div>
+
+
+
+
+
+
+    </div>
+    </section>
+
+
+
+    <footer>
+      <div id="paa-content">
+        <div id="paa-contacts">
+          <h1>Portland Primary</h1>
+          <p>Follow For More!</p>
+
+          <div id="paa-social">
+            <a href="#" class="paa-link" id="insta">
+              <i class="lab la-instagram"></i>
+            </a>
+
+            <a href="#" class="paa-link" id="faceb">
+              <i class="lab la-facebook"></i>
+            </a>
+
+            <a href="#" class="paa-link" id="whats">
+              <i class="lab la-whatsapp"></i>
+            </a>
+
+
+
+          </div>
+        </div>
+
+        <ul class="paa-list">
+          <li>
+            <h3>Forum</h3>
+          </li>
+          <li>
+            <a href="Forum.html" class="paa-link">My Topics</a>
+          </li>
+          <li>
+            <a href="Forum3.html" class="paa-link">Explore Topics</a>
+          </li>
+          <li>
+            <a href="Forum2.html" class="paa-link">Post a Thread</a>
+          </li>
+        </ul>
+
+        <ul class="paa-list">
+          <li>
+            <h3>Useful Links</h3>
+          </li>
+          <li>
+            <a href="News.html" class="paa-link">News</a>
+          </li>
+          <li>
+            <a href="Events.html" class="paa-link">Events</a>
+          </li>
+          <li>
+            <a href="Contact.html" class="paa-link">Contact</a>
+          </li>
+        </ul>
+
+        <div id="paa-sub">
+          <h3>Subscribe</h3>
+
+          <p>
+            Enter your email to get notified about
+            our newsletter
+          </p>
+
+          <div id="pasok-grupo">
+            <input type="email" id="email">
+            <button>
+              <i class="las la-envelope"></i>
+            </button>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="kopya">
+        2023 all rights reserved
+      </div>
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+    var navLinks = document.getElementById("navLinks");
+
+       function showMenu() {
+           navLinks.style.right = "0";
+       }
+
+       function hideMenu() {
+           navLinks.style.right = "-200px";
+       }
+
+       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+           anchor.addEventListener("click", function (e) {
+               e.preventDefault();
+               document.querySelector(this.getAttribute("href")).scrollIntoView({
+                   behavior: "smooth"
+               });
+           });
+       });
+
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
